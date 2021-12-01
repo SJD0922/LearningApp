@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2918CE1F2757FD73004A6884 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2918CE1E2757FD73004A6884 /* HomeViewRow.swift */; };
 		29DEE65027569AB500B130AA /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DEE64F27569AB500B130AA /* LearningApp.swift */; };
 		29DEE65227569AB500B130AA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DEE65127569AB500B130AA /* HomeView.swift */; };
 		29DEE65427569AB700B130AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29DEE65327569AB700B130AA /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2918CE1E2757FD73004A6884 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 		29DEE64C27569AB500B130AA /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29DEE64F27569AB500B130AA /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		29DEE65127569AB500B130AA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -65,8 +67,6 @@
 				29DEE65F27569B7900B130AA /* ViewModels */,
 				29DEE66027569B8C00B130AA /* Models */,
 				29DEE66127569B9A00B130AA /* Resources */,
-				29DEE6672756A9A700B130AA /* data.json */,
-				29DEE6662756A9A700B130AA /* style.html */,
 				29DEE66327569BB400B130AA /* Helpers */,
 				29DEE65327569AB700B130AA /* Assets.xcassets */,
 				29DEE65827569AB700B130AA /* Info.plist */,
@@ -87,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				29DEE65127569AB500B130AA /* HomeView.swift */,
+				2918CE1E2757FD73004A6884 /* HomeViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,6 +111,8 @@
 		29DEE66127569B9A00B130AA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				29DEE6672756A9A700B130AA /* data.json */,
+				29DEE6662756A9A700B130AA /* style.html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29DEE65227569AB500B130AA /* HomeView.swift in Sources */,
+				2918CE1F2757FD73004A6884 /* HomeViewRow.swift in Sources */,
 				29DEE65027569AB500B130AA /* LearningApp.swift in Sources */,
 				29DEE66527569C3400B130AA /* ContentModel.swift in Sources */,
 				29DEE66B2756AAD200B130AA /* Models.swift in Sources */,
